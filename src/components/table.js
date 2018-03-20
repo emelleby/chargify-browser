@@ -11,7 +11,7 @@ var items = [
     {"id": 14225,"name": "Leach Durham","age": 23,"phone": "+44 (0)208 280 9572","color": "green"}
   ];
   
-  var data = [
+  var data1 = [
     {
       "component": {
         "id": 428437,
@@ -548,10 +548,24 @@ var items = [
       }}
   ];
   
+  var data = "{}";
 
+  var xhr = new XMLHttpRequest();
+  xhr.withCredentials = true;
+
+  xhr.addEventListener("readystatechange", function () {
+    if (this.readyState === this.DONE) {
+      console.log(this.responseText);
+    }
+  });
+
+  xhr.open("GET", "https://non-eu-europe.chargify.com/product_families/1027458/components.json");
+  xhr.setRequestHeader("authorization", "Basic WjdkYk03eVlxa3lZWHhUMEYyMHFXQ2VXQzZNQ2Zma1Q0SEFkelJYdEU6");
+
+  xhr.send(data);
 
   function render() {
-    return <JsonTable className="table table-striped" rows = {items} columns={columns} / >
+    return <JsonTable className="table table-striped" rows = {data1} columns={columns} / >
   }  
 
 

@@ -3,35 +3,110 @@
     display: flex;
     flex-direction: column;
     flex-grow: 1;
-    padding-top: 98px;
+    padding-top: 77px;
     background: #FFFFFF;
     min-height: 100vh;
 }
 
 .chargify-0 {
     display: flex;
+    padding-left: 172px;
+    padding-right: 1563px;
 }
 
-.chargify-0-0 {
-    height: 0px;
-    flex-grow: 0;
-    flex-basis: 0px;
-}
-
-.chargify-container-5 {
-    height: 704px;
-    flex-grow: 1;
-    flex-basis: 0px;
-    background: rgba(208, 40, 40, 0.26);
-}
-
-.chargify-0-2 {
-    height: 0px;
-    flex-grow: 0;
-    flex-basis: 0px;
+.chargify-text-3 {
+    width: 303px;
+    flex-shrink: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #000000;
+    font-size: 26px;
+    line-height: 30px;
+    letter-spacing: 0px;
+    font-weight: normal;
+    font-style: normal;
+    text-decoration: none;
+    text-align: left;
+    word-wrap: break-word;
 }
 
 .chargify-1 {
+    display: flex;
+    margin-top: 30px;
+}
+
+.chargify-1-0 {
+    height: 0px;
+    flex-grow: 0.08439646712463199;
+    flex-basis: 0px;
+}
+
+.chargify-rectangle_2 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.8635917566241413;
+    flex-basis: 0px;
+    min-height: fit-content;
+}
+
+.chargify-1-1-0 {
+    display: flex;
+}
+
+.chargify-1-1-0-0 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 235px;
+}
+
+.chargify-1-1-0-0-0 {
+    display: flex;
+}
+
+.chargify-rectangle-1 {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2px;
+    background: rgb(188, 193, 76);
+}
+
+.chargify-1-1-0-0-0-0-0 {
+    display: flex;
+}
+
+.chargify-table-3 {
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    min-width: 1349px;
+    min-height: 133px;
+}
+
+.chargify-1-1-0-1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 106px;
+    padding-top: 4px;
+}
+
+.chargify-1-1-0-1-0 {
+    display: flex;
+}
+
+.chargify-oval-1 {
+    width: 305px;
+    height: 366px;
+    flex-shrink: 0;
+    border-radius: 100%;
+    background: #D8D8D8;
+}
+
+.chargify-1-2 {
+    height: 0px;
+    flex-grow: 0.052011776251226695;
+    flex-basis: 0px;
+}
+
+.chargify-2 {
     width: 0px;
     flex-grow: 1;
     flex-basis: 0px;
